@@ -4,6 +4,5 @@
 
 .title {
   font-family: 'Alumni Sans Inline One', cursive;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-block: 3vh;
 }

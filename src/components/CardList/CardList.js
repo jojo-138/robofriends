@@ -1,6 +1,6 @@
-import { Card } from './Card';
+import Card from '../Card/Card';
 
-export const CardList = ({ users,input }) => {
+const CardList = ({ users,input }) => {
     const filteredUser = users.filter(user => user.name.toLowerCase().includes(input.toLowerCase()));
     const user = filteredUser.map(user => {
         return (
@@ -8,8 +8,10 @@ export const CardList = ({ users,input }) => {
         );
     });
     return (
-        <div className="container bn pa3 f7 ma3 vh-75 overflow-y-auto">
+        <div className="container bn pa3 f7 ma3 vh-75 overflow-y-auto" id="card-list">
             {user}
         </div>
     );
-};
+}
+
+export default CardList;
