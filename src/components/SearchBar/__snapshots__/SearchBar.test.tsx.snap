@@ -1,15 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchBar component renders correctly 1`] = `
+exports[`SearchBar component component renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div>
         <input
+          aria-label="search robofriends"
           class="pa3 bn br3 bg-near-black white fw6 tracked shadow-5 mt3"
           placeholder="Search robofriends"
           type="text"
+          value=""
         />
       </div>
     </div>
@@ -17,9 +19,11 @@ Object {
   "container": <div>
     <div>
       <input
+        aria-label="search robofriends"
         class="pa3 bn br3 bg-near-black white fw6 tracked shadow-5 mt3"
         placeholder="Search robofriends"
         type="text"
+        value=""
       />
     </div>
   </div>,
@@ -73,6 +77,13 @@ Object {
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;
