@@ -4,3 +4,4 @@ A project which shows a list of robofriends using fake users from JSONPlaceholde
 
 **7/24/22**
 Updated the project with Typescript   
+ 
